@@ -1,0 +1,188 @@
+nav{
+    display: flex;
+    height: 50px;
+    width: 75%;
+    background-color: #144794;
+    align-items: center;
+    justify-content: space-around;
+}
+.but{
+    padding: 10px 5px;
+    color: white;
+    width: fit-content;
+
+}
+#banner{
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color:#8bbef5;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 75%;
+    min-width: 720px;
+    max-width: 1140px;
+}
+.gare{
+    display: flex;
+    background-color:white;
+    height:max-content;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.gara{ 
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 20px 20px;
+}
+.logo_wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.fipl_logo{
+    width: 70px;
+    height: 100px;
+}
+.table_wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #E8EDF2;
+}
+.table_wrapper1{
+    display: flex;
+    background-color: #E8EDF2;
+    justify-content: space-around;
+}
+.table_item{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.gare_nazionali{
+    background-color:#E8EDF2;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 5px solid #E8EDF2;
+    border-bottom: 5px solid #E8EDF2;
+    border-radius: 3px;
+}
+.naz_logo{
+    height: 16px;
+    
+}
+#section2{
+    display: flex;
+    min-width: 720px;
+    max-width: 1140px;
+}
+#comunicazioni{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+#sponsor{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 20px 20px;
+}
+.button{
+    width: fit-content;
+    border-radius: 5px;
+    padding: 10px;
+    color :white;
+    align-self: center;
+    margin: 10px 5px;
+    background-color: blue;
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.whitebackground{
+    background-color:white;
+}
+.bluebackground{
+    background-color:blue;
+}
+.bluemargin{
+    margin: 1px;
+}
+.intestazione_com{
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px black;
+}
+.comunicazione{
+    text-align: left;
+    margin: 20px 20px;
+    background-color: #E8EDF2;
+    border: 15px solid #E8EDF2;
+    border-radius: 5px;
+}
+iframe{
+    width:80%;
+    height:400px;
+    margin: 20px 20px;
+}
+.logo{
+    width:190px;
+    margin: 20px 20px;
+}
+.border{
+    border-bottom: 1px dotted black;
+}
+.underline{
+    text-decoration: underline ;
+}
+.center{
+    text-align: center;
+}
+.comunication_navbar{
+    display: flex;
+    justify-content:center;
+}
+.navbar_button1{
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    margin: 10px 5px;
+    width: fit-content;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.navbar_button2{
+    color: white;
+    background-color: blue;
+    margin: 10px 5px;
+    width: fit-content;
+    padding: 10px;
+}
+footer{
+    background-color: #144794;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    width: 75%;
+    align-items: baseline;
+}
+.foot_element{
+    margin: 20px 20px;
+}
